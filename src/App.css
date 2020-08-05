@@ -70,23 +70,29 @@
   position: relative;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   /* background-color: rgba(230, 230, 230, 0.33); */
-  height: 100vh;
+  height: 80vh;
   width: 100%;
 }
 
 #project-tab {
   width: 500px;
   height: 500px;
+  margin: 20px;
+
   font-family: "Open Sans";
   border-radius: 20px;
   background-color: rgba(230, 230, 230, 0.33);
   box-shadow: 5px 5px 8px rgb(218, 218, 218);
 }
 #project-tab:hover {
-  width: 515px;
-  height: 515px;
+  width: 505px;
+  height: 505px;
   background-color: rgba(230, 230, 230, 0);
-  box-shadow: 5px 5px 8px rgba(218, 218, 218, 0.685);
+  box-shadow: 5px 5px 8px rgba(172, 172, 172, 0.685);
+}
+#scraper-pic {
+  border-radius: 15px;
 }

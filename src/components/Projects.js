@@ -8,12 +8,12 @@ function Projects() {
         <h1>Codingbat Scraper</h1>
         <p>
           A web scraper used to login to your{" "}
-          <a href="http://codingbat.com">codingbat.com</a> account and scrape
-          every problem and your solution.
+          <a href="http://codingbat.com">codingbat.com</a> account to scrape
+          problem solutions.
         </p>
         <img
           id="scraper-pic"
-          alt="scraper photo"
+          alt="scraper"
           src="../scraper.png"
           width="400px"
           height="325px"
@@ -33,6 +33,48 @@ function Projects() {
           height="325px"
         ></img>
       </div>
+      <div id="project-tab">
+        <h1>Command Line Paychecks</h1>
+        <p>
+          A command line project that allows you to input and keep track of
+          paychecks received.
+        </p>
+        <img
+          id="scraper-pic"
+          alt="scraper photo"
+          src="../checkset.png"
+          width="400px"
+          height="325px"
+        ></img>
+      </div>
+      <div id="project-tab">
+        <h1>Command Line Paychecks</h1>
+        <p>
+          A command line project that allows you to input and keep track of
+          paychecks received.
+        </p>
+        <img
+          id="scraper-pic"
+          alt="scraper photo"
+          src="../checkset.png"
+          width="400px"
+          height="325px"
+        ></img>
+      </div>
+      <div id="project-tab">
+        <h1>Command Line Paychecks</h1>
+        <p>
+          A command line project that allows you to input and keep track of
+          paychecks received.
+        </p>
+        <img
+          id="scraper-pic"
+          alt="scraper photo"
+          src="../checkset.png"
+          width="400px"
+          height="325px"
+        ></img>
+      </div>{" "}
       <div id="project-tab">
         <h1>Command Line Paychecks</h1>
         <p>
