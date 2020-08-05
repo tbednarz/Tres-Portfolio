@@ -11,6 +11,13 @@ function Projects() {
           <a href="http://codingbat.com">codingbat.com</a> account and scrape
           every problem and your solution.
         </p>
+        <img
+          id="scraper-pic"
+          alt="scraper photo"
+          src="../scraper.png"
+          width="400px"
+          height="325px"
+        ></img>
       </div>
       <div id="project-tab">
         <h1>Headmath</h1>
@@ -18,6 +25,13 @@ function Projects() {
           A simple infinite number generator in which you can choose the
           generation speed and operation to perform.
         </p>
+        <img
+          id="scraper-pic"
+          alt="head-math"
+          src="../head-math.png"
+          width="400px"
+          height="325px"
+        ></img>
       </div>
       <div id="project-tab">
         <h1>Command Line Paychecks</h1>
@@ -25,6 +39,13 @@ function Projects() {
           A command line project that allows you to input and keep track of
           paychecks received.
         </p>
+        <img
+          id="scraper-pic"
+          alt="scraper photo"
+          src="../checkset.png"
+          width="400px"
+          height="325px"
+        ></img>
       </div>
     </div>
   );
