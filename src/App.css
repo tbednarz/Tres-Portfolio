@@ -3,7 +3,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   background-color: rgba(243, 243, 243, 0.151);
   height: 20vh;
   width: 100%;
@@ -11,19 +11,25 @@
 .Header-Top {
   padding-top: 10px;
   font-size: 5em;
-  font-family: "Open Sans Condensed", sans-serif;
-  background-color: rgba(230, 230, 230, 0.33);
+  font-family: "Barutus Slab", sans-serif;
+  background-color: rgba(230, 230, 230, 0.055);
+}
+.Header-Bottom {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .Header-Link {
   background-color: transparent;
   border: none;
-  margin: auto;
-  background-color: rgba(230, 230, 230, 0.33);
+  /* margin: auto; */
+  /* background-color: rgba(230, 230, 230, 0.33); */
 }
 .Link-List {
   margin: 0 auto;
   padding: 0;
-  border-bottom: 0.2px solid rgba(128, 128, 128, 0.486);
+  /* border-bottom: 0.2px solid rgba(128, 128, 128, 0.486); */
 }
 #Link-Text {
   font-size: 2.3em;
@@ -34,24 +40,45 @@
 #Link-Text:hover {
   opacity: 0.7;
 }
+@media (max-width: 560px) {
+  .Header-Box {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    background-color: rgba(243, 243, 243, 0.151);
+    height: 30vh;
+    width: 100%;
+  }
+  .Header-Top {
+    font-size: 3em;
+  }
+}
 .Home-Tab {
   display: flex;
   flex-direction: row;
   justify-content: center;
   height: 80vh;
   width: 100%;
+  background: rgba(28, 134, 138, 0.555);
 }
 .Home-Text-Div {
-  align-self: center;
-  height: 300px;
-  margin-left: 200px;
-  font-size: 1.7em;
+  margin-top: 10px;
+  width: 40%;
+  height: auto;
+  font-size: 3.2rem;
   font-family: "Open Sans Condensed", sans-serif;
 }
 
 #tres-pic {
   margin-top: 40px;
   border-radius: 200px;
+}
+@media (max-width: 800px) {
+  .Home-Text-Div {
+    width: 80%;
+  }
 }
 @media (max-height: 860px) {
   .Home-Tab {
@@ -72,8 +99,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  /* background-color: rgba(230, 230, 230, 0.33); */
-  height: 80vh;
+  background-color: rgb(63, 226, 57);
+  height: auto;
   width: 100%;
 }
 
@@ -81,17 +108,17 @@
   width: 500px;
   height: 500px;
   margin: 20px;
-
   font-family: "Open Sans";
   border-radius: 20px;
-  background-color: rgba(230, 230, 230, 0.33);
-  box-shadow: 5px 5px 8px rgb(218, 218, 218);
+  /* border: transparent; */
+  background-color: rgb(230, 230, 230);
+  box-shadow: 5px 5px rgb(65, 57, 57);
 }
 #project-tab:hover {
   width: 505px;
   height: 505px;
-  background-color: rgba(230, 230, 230, 0);
-  box-shadow: 5px 5px 8px rgba(172, 172, 172, 0.685);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 8px rgb(172, 172, 172);
 }
 #scraper-pic {
   border-radius: 15px;
