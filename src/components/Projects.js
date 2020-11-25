@@ -11,13 +11,15 @@ function Projects() {
           <a href="http://codingbat.com">codingbat.com</a> account to scrape
           problem solutions.
         </p>
-        <img
-          id="scraper-pic"
-          alt="scraper"
-          src="../scraper.png"
-          width="400px"
-          height="325px"
-        ></img>
+        <a href="https://github.com/tbednarz/codebat-scrape">
+          <img
+            id="project-pic"
+            alt="scraper"
+            src="../scraper.png"
+            width="400px"
+            height="325px"
+          ></img>
+        </a>
       </div>
       <div id="project-tab">
         <h1>Headmath</h1>
@@ -25,69 +27,47 @@ function Projects() {
           A simple infinite number generator in which you can choose the
           generation speed and operation to perform.
         </p>
-        <img
-          id="scraper-pic"
-          alt="head-math"
-          src="../head-math.png"
-          width="400px"
-          height="325px"
-        ></img>
+        <a href="https://tbednarz.github.io/head-math-live/">
+          <img
+            id="project-pic"
+            alt="head-math"
+            src="../head-math.png"
+            width="400px"
+            height="325px"
+          ></img>
+        </a>
       </div>
       <div id="project-tab">
-        <h1>Command Line Paychecks</h1>
+        <h1>checkSet</h1>
         <p>
           A command line project that allows you to input and keep track of
           paychecks received.
         </p>
-        <img
-          id="scraper-pic"
-          alt="scraper photo"
-          src="../checkset.png"
-          width="400px"
-          height="325px"
-        ></img>
+        <a href="https://github.com/tbednarz/checkSet">
+          <img
+            id="project-pic"
+            alt="checkset photo"
+            src="../checkset.png"
+            width="400px"
+            height="325px"
+          ></img>
+        </a>
       </div>
       <div id="project-tab">
-        <h1>Command Line Paychecks</h1>
+        <h1>BankState</h1>
         <p>
-          A command line project that allows you to input and keep track of
-          paychecks received.
+          A personal project for parsing CSV bank statements to determine how
+          much I've spent and saved each month.
         </p>
-        <img
-          id="scraper-pic"
-          alt="scraper photo"
-          src="../checkset.png"
-          width="400px"
-          height="325px"
-        ></img>
-      </div>
-      <div id="project-tab">
-        <h1>Command Line Paychecks</h1>
-        <p>
-          A command line project that allows you to input and keep track of
-          paychecks received.
-        </p>
-        <img
-          id="scraper-pic"
-          alt="scraper photo"
-          src="../checkset.png"
-          width="400px"
-          height="325px"
-        ></img>
-      </div>{" "}
-      <div id="project-tab">
-        <h1>Command Line Paychecks</h1>
-        <p>
-          A command line project that allows you to input and keep track of
-          paychecks received.
-        </p>
-        <img
-          id="scraper-pic"
-          alt="scraper photo"
-          src="../checkset.png"
-          width="400px"
-          height="325px"
-        ></img>
+        <a href="https://github.com/tbednarz/BankState">
+          <img
+            id="project-pic"
+            alt="bankstate photo"
+            src="../bankstate.png"
+            width="400px"
+            height="325px"
+          ></img>
+        </a>
       </div>
     </div>
   );
