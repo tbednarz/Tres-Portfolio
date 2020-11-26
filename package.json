@@ -1,6 +1,6 @@
 {
-  "homepage": "http://tbednarz.github.io/my-portfolio",
-  "name": "my-portfolio",
+  "homepage": "http://tbednarz.github.io/Tres-Portfolio",
+  "name": "Tres-Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
+    "git": "^0.1.5",
     "nodemailer": "^6.4.16",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
