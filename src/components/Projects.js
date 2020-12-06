@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import "./projects.css";
 
 function Projects() {
   return (
@@ -15,7 +15,7 @@ function Projects() {
           <img
             id="project-pic"
             alt="scraper"
-            src="../scraper.png"
+            src="/public/scraper.png"
             width="400px"
             height="325px"
           ></img>
@@ -31,7 +31,7 @@ function Projects() {
           <img
             id="project-pic"
             alt="head-math"
-            src="../head-math.png"
+            src="../tres.jpg"
             width="400px"
             height="325px"
           ></img>
