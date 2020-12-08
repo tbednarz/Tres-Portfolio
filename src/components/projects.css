@@ -26,9 +26,9 @@
   background-color: rgb(236, 236, 236);
 }
 #project-pic:hover {
-  opacity: 100%;
+  opacity: 1;
 }
 #project-pic {
   border-radius: 5px;
-  opacity: 85%;
+  opacity: 0.8;
 }
