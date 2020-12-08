@@ -10,22 +10,25 @@
   height: auto;
   width: 100%;
 }
+#project-head {
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+}
+#project-description {
+  font-size: 1.2em;
+  font-family: "Open Sans Condensed", sans-serif;
+}
 
 #project-tab {
   width: 500px;
   height: 500px;
   margin: 20px;
-  font-family: "Open Sans";
-  border-radius: 20px;
-  /* border: transparent; */
   background-color: rgb(236, 236, 236);
 }
-#project-tab:hover {
-  width: 505px;
-  height: 505px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 5px 5px rgb(65, 57, 57), 5px 5px inset rgb(65, 57, 57);
+#project-pic:hover {
+  opacity: 100%;
 }
 #project-pic {
-  border-radius: 15px;
+  border-radius: 5px;
+  opacity: 85%;
 }

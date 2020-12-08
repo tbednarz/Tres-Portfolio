@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="Header-Box">
       <div className="Header-Top">Trés J. Bednarz</div>
-      
+      <p>JavaScript Developer</p>
     </div>
   );
 }

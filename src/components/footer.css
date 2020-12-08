@@ -2,17 +2,27 @@
   display: flex;
   font-size: 1.5em;
   font-weight: lighter;
+  justify-content: space-around;
   align-items: center;
-  justify-content: space-evenly;
   width: 100%;
   height: 45px;
   background: white;
 }
 #footer-button {
+  padding-right: 5%;
   text-decoration: none;
   color: black;
 }
 
 #footer-button:hover {
   text-decoration: underline;
+}
+@media screen and (max-width: 426px) {
+  .footer-box {
+    font-size: 0.8em;
+    justify-content: space-evenly;
+  }
+  #footer-button {
+    padding: 0;
+  }
 }
