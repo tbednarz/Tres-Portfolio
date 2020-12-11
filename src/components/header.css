@@ -1,0 +1,31 @@
+.Header-Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 50vh;
+  width: 100%;
+}
+.Header-Top {
+  padding-top: 10px;
+  font-size: 5em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.986);
+}
+.Header-Bottom {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (max-width: 426px) {
+  .Header-Box {
+    width: 100%;
+    height: 50vh;
+  }
+  .Header-Top {
+    font-size: 2.5em;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../App.css";
+import "./App.css";
 
 function App() {
   return (
@@ -14,9 +14,8 @@ function App() {
       />
       <div className="Home-Text-Div">
         {" "}
-        <p>
-          Hi, My name is Trés! A Welder and Heavy Diesel Mechanic turned
-          Programmer!
+        <p id="photo-text">
+        I am a self taught developer looking to break into the industry to leverage my interest in building tools/utilities to solve interesting problems that delight potential uses. Very excited to continue my learning!
         </p>{" "}
       </div>
     </div>
