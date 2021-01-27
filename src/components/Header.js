@@ -1,11 +1,11 @@
 import React from "react";
 import "./header.css";
 
-function Header() {
+function Header({ headerTitle, subTitle }) {
   return (
     <div className="Header-Box">
-      <div className="Header-Top">Trés J. Bednarz</div>
-      <p>JavaScript Developer</p>
+      <div className="Header-Top">{headerTitle}</div>
+      <p className="Header-Bottom">{subTitle}</p>
     </div>
   );
 }

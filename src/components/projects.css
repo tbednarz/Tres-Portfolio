@@ -1,34 +1,7 @@
-.Project-Box {
+.project-container {
   display: flex;
-  text-align: center;
-  position: relative;
-  display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  background: rgb(236, 236, 236);
-  height: auto;
-  width: 100%;
-}
-#project-head {
-  font-size: 2em;
-  font-family: "Montserrat", sans-serif;
-}
-#project-description {
-  font-size: 1.2em;
-  font-family: "Open Sans Condensed", sans-serif;
-}
-
-#project-tab {
-  width: 500px;
-  height: 500px;
-  margin: 20px;
-  background-color: rgb(236, 236, 236);
-}
-#project-pic:hover {
-  opacity: 1;
-}
-#project-pic {
-  border-radius: 5px;
-  opacity: 0.8;
+  align-content: center;
+  color: #fff;
+  background-color: #333;
 }
