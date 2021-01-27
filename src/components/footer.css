@@ -29,3 +29,8 @@
     border-bottom: 2px solid black;
   }
 }
+@media screen and (max-width: 320px){
+  .footer-box{
+    font-size: .75em;
+  }
+}

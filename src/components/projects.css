@@ -1,7 +1,42 @@
 .project-container {
   display: flex;
+<<<<<<< HEAD
+=======
+  text-align: center;
+  position: relative;
+  flex-direction: row;
+>>>>>>> 8ef03d015fa802fdd7ed3265f5e684b39c2ec646
   flex-wrap: wrap;
   align-content: center;
   color: #fff;
   background-color: #333;
+}
+@media screen and (max-width:375px){
+
+  #project-description{
+    
+    width: 80%;
+    font-size: 1em
+  }
+  #project-pic{
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .Project-Box{
+    justify-content: center;
+  }
+  #project-tab{
+    height: 375px;
+  }
+
+  #project-description{
+    font-size: .8em;
+    margin: 0 auto;
+  }
+  #project-pic{
+    width: 300px;
+    height: 250px;
+  }
 }
