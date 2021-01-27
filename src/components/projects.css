@@ -1,20 +1,15 @@
 .project-container {
   display: flex;
-<<<<<<< HEAD
-=======
   text-align: center;
   position: relative;
   flex-direction: row;
->>>>>>> 8ef03d015fa802fdd7ed3265f5e684b39c2ec646
   flex-wrap: wrap;
   align-content: center;
   color: #fff;
   background-color: #333;
 }
 @media screen and (max-width:375px){
-
   #project-description{
-    
     width: 80%;
     font-size: 1em
   }
