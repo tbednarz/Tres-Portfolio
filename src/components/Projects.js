@@ -1,39 +1,126 @@
 import React from "react";
 import "./projects.css";
-import Project from "./Project";
-import scrapeImg from "../img/scraper.png";
-import headmath from "../img/head-math.PNG";
-import checkSetImg from "../img/checkset.PNG";
-import bankStateImg from "../img/bankstate.PNG";
 
-function Projects() {
+const Projects = () => {
   return (
-    <div className="project-container">
-      <Project
-        projectTitle="Codingbat Scraper"
-        projectDescription="A web scraper used to login to your codingbat.com account to scrape problem solutions"
-        projectLink="https://github.com/tbednarz/codebat-scrape"
-        projectImg={scrapeImg}
-      />
-      <Project
-        projectTitle="HeadMath"
-        projectDescription="A simple infinite number generator in which you can choose the generation speed and operation to perform."
-        projectLink="https://tbednarz.github.io/head-math-live/"
-        projectImg={headmath}
-      />
-      <Project
-        projectTitle="checkSet"
-        projectDescription="A command link project to input and keep record of paychecks received."
-        projectLink="https://github.com/tbednarz/checkSet"
-        projectImg={checkSetImg}
-      />
-      <Project
-        projectTitle="bankState"
-        projectDescription="A personal project for parsting CSV bank statements to determine how much has been spent and saved each month."
-        projectLink="https://github.com/tbednarz/bankstate"
-        projectImg={bankStateImg}
-      />
+    <div className="project-box">
+      <div id="project">
+        <h1>React Math</h1>
+        <p>
+          An infinite number generator to practice mental math. Choose your
+          operator & speed of generation. Then math away!
+        </p>
+        <ul id="skill-list">
+          <li>React</li>
+          <li>CSS</li>
+          <li>Netlify</li>
+        </ul>
+        <div id="link-box">
+          <a href="">Github</a>
+        </div>
+      </div>
+      <div id="project">
+        {" "}
+        <h1>Codingbat Scraper</h1>
+        <p>
+          A project which allows you to login to codingbat.com to scrape every
+          problem, and your solution to said problem .{" "}
+        </p>
+        <ul id="skill-list">
+          <li>Python</li>
+          <li>BeautifulSoup 4</li>
+          <li>Requests</li>
+          <li>getpass</li>
+        </ul>
+        <div id="link-box">
+          <a href="">Github</a>
+        </div>
+      </div>
+      <div id="project">
+        {" "}
+        <h1>checkset</h1>
+        <p>
+          A command line CRUD app to input "checks" to keep track of incoming
+          funds.
+        </p>
+        <ul id="skill-list">
+          <li>Node.JS</li>
+          <li>Chalk</li>
+          <li>ReadLine</li>
+          <li>UUID</li>
+          <li>FS</li>
+        </ul>
+        <div id="link-box">
+          <a href="">Github</a>
+        </div>
+      </div>
+      <div id="project">
+        {" "}
+        <h1>BankState</h1>
+        <p>
+          A expense sorting application. Upload a CSV of your monthly statement
+          to view where your money is going! *Tailored to my needs but
+          adjustable*
+        </p>
+        <ul id="skill-list">
+          <li>JavaScript</li>
+          <li>CSV-Parser</li>
+          <li>FS</li>
+        </ul>
+        <div id="link-box">
+          <a href="">Github</a>
+        </div>
+      </div>
+      <div id="project">
+        {" "}
+        <h1>Express-Crash-Course</h1>
+        <p>
+          An Express crash course project following the Travery Media Youtube
+          channel.
+        </p>
+        <ul id="skill-list">
+          <li>Node.JS</li>
+          <li>Express</li>
+          <li>Path</li>
+          <li>Handlebars</li>
+          <li>Logger</li>
+          <li>Moment</li>
+          <li>uuid</li>
+        </ul>
+        <div id="link-box">
+          <a href="https://www.youtube.com/watch?v=L72fhGm1tfE">
+            Link To Video
+          </a>
+        </div>
+        <div id="link-box">
+          {" "}
+          <a href="https://github.com/tbednarz/Express-Crash-Course">Github</a>
+        </div>
+      </div>
+      <div id="project">
+        {" "}
+        <h1>React-Crash-Course</h1>
+        <p>
+          A crash course in React following the Traversy Media Youtube channel.
+        </p>
+        <ul id="skill-list">
+          <li>React</li>
+          <li>json-server</li>
+        </ul>
+        <div id="link-box">
+          <a href="https://www.youtube.com/watch?v=w7ejDZ8SWv8">
+            Link To Video
+          </a>
+        </div>
+        <div id="link-box">
+          {" "}
+          <a href="https://github.com/tbednarz/React-crash-course-2021">
+            Github
+          </a>
+        </div>
+      </div>
     </div>
   );
-}
+};
+
 export default Projects;

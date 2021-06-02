@@ -1,17 +1,18 @@
 import React from "react";
-
 import "./footer.css";
 
-function Footer() {
+const Footer = () => {
   return (
     <div className="footer-box">
-      Created by Trés J. Bednarz
-      <a id="footer-button" href="https://github.com/tbednarz/Tres-Portfolio">Source Code</a>
-      <a id="footer-button" href="mailto:tresbednarz@gmail.com">
-        Contact me!
-      </a>
+      <div>Created By Tres Bednarz</div>
+      <div>
+        <a href="">Source Code</a>
+      </div>
+      <div>
+        <a href="">Contact Me</a>
+      </div>
     </div>
   );
-}
+};
 
 export default Footer;

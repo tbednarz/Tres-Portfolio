@@ -1,42 +1,44 @@
-.project-container {
+.project-box {
   display: flex;
-<<<<<<< HEAD
-=======
-  text-align: center;
-  position: relative;
-  flex-direction: row;
->>>>>>> 8ef03d015fa802fdd7ed3265f5e684b39c2ec646
   flex-wrap: wrap;
-  align-content: center;
-  color: #fff;
-  background-color: #333;
-}
-@media screen and (max-width:375px){
-
-  #project-description{
-    
-    width: 80%;
-    font-size: 1em
-  }
-  #project-pic{
-    width: 350px;
-  }
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
 }
 
-@media screen and (max-width: 320px){
-  .Project-Box{
-    justify-content: center;
-  }
-  #project-tab{
-    height: 375px;
-  }
+#project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Cutive Mono", monospace;
+  margin: 10px;
+  height: 400px;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 2px 0 black;
+}
+#skill-list {
+  width: auto;
+  margin: 10px;
+  padding: 25px;
+  text-align: left;
+  box-shadow: 2px 2px 0 black;
+  border: 2px solid gray;
+  column-count: 2;
+}
+#link-box {
+  align-self: center;
+  width: 50%;
+  border: 2px solid black;
+  box-shadow: 2px 2px 0 black;
+  margin-bottom: 5px;
+  padding: 5px;
+}
 
-  #project-description{
-    font-size: .8em;
-    margin: 0 auto;
-  }
-  #project-pic{
-    width: 300px;
-    height: 250px;
-  }
+#link-box:hover {
+  padding: 10px;
 }

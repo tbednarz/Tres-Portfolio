@@ -1,0 +1,28 @@
+.about-box {
+  display: flex;
+  overflow: hidden;
+  height: min(100vh);
+  width: 100%;
+}
+#about-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  text-align: center;
+  font-family: "Cutive Mono", monospace;
+}
+#about-me-p {
+  line-height: 2em;
+  font-weight: 700;
+  width: 75%;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
