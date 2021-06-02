@@ -6,10 +6,10 @@ const Footer = () => {
     <div className="footer-box">
       <div>Created By Tres Bednarz</div>
       <div>
-        <a href="">Source Code</a>
+        <a href="https://github.com/tbednarz/Tres-Portfolio">Source Code</a>
       </div>
       <div>
-        <a href="">Contact Me</a>
+        <a href="mailto: tresbednarz@gmail.com">Contact Me</a>
       </div>
     </div>
   );
