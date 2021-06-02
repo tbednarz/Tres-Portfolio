@@ -16,7 +16,7 @@ const Projects = () => {
           <li>Netlify</li>
         </ul>
         <div id="link-box">
-          <a href="">Github</a>
+          <a href="https://reactmath.netlify.app/">Github</a>
         </div>
       </div>
       <div id="project">
@@ -33,7 +33,7 @@ const Projects = () => {
           <li>getpass</li>
         </ul>
         <div id="link-box">
-          <a href="">Github</a>
+          <a href="https://github.com/tbednarz/codebat-scrape">Github</a>
         </div>
       </div>
       <div id="project">
@@ -51,7 +51,7 @@ const Projects = () => {
           <li>FS</li>
         </ul>
         <div id="link-box">
-          <a href="">Github</a>
+          <a href="https://github.com/tbednarz/checkSet">Github</a>
         </div>
       </div>
       <div id="project">
@@ -68,7 +68,7 @@ const Projects = () => {
           <li>FS</li>
         </ul>
         <div id="link-box">
-          <a href="">Github</a>
+          <a href="https://github.com/tbednarz/BankState">Github</a>
         </div>
       </div>
       <div id="project">
