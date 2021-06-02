@@ -1,18 +1,11 @@
 .project-box {
   display: flex;
-<<<<<<< HEAD
-=======
-  text-align: center;
-  position: relative;
-  flex-direction: row;
->>>>>>> e1a5ee21ccde8c361c2f3f6f9f88dab70d602ce5
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: auto;
   width: 100%;
 }
-<<<<<<< HEAD
 
 #project {
   display: flex;
@@ -48,32 +41,4 @@
 
 #link-box:hover {
   padding: 10px;
-=======
-@media screen and (max-width:375px){
-  #project-description{
-    width: 80%;
-    font-size: 1em
-  }
-  #project-pic{
-    width: 350px;
-  }
-}
-
-@media screen and (max-width: 320px){
-  .Project-Box{
-    justify-content: center;
-  }
-  #project-tab{
-    height: 375px;
-  }
-
-  #project-description{
-    font-size: .8em;
-    margin: 0 auto;
-  }
-  #project-pic{
-    width: 300px;
-    height: 250px;
-  }
->>>>>>> e1a5ee21ccde8c361c2f3f6f9f88dab70d602ce5
 }
