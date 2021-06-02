@@ -1,7 +1,7 @@
 .about-box {
   display: flex;
   overflow: hidden;
-  height: min(100vh);
+  height: auto;
   width: 100%;
 }
 #about-left {

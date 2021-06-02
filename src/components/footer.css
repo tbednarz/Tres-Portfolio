@@ -2,9 +2,15 @@
   display: flex;
   margin: 25px;
   height: 50px;
+  width: auto;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   font-family: "Cutive Mono", monospace;
   font-size: 1.2em;
+}
+@media screen and (max-width: 380px) {
+  .footer-box {
+    font-size: 1em;
+  }
 }

@@ -21,14 +21,14 @@ const Projects = () => {
       </div>
       <div id="project">
         {" "}
-        <h1>Codingbat Scraper</h1>
+        <h1>Codebat Scrape</h1>
         <p>
           A project which allows you to login to codingbat.com to scrape every
           problem, and your solution to said problem .{" "}
         </p>
         <ul id="skill-list">
           <li>Python</li>
-          <li>BeautifulSoup 4</li>
+          <li>BS4</li>
           <li>Requests</li>
           <li>getpass</li>
         </ul>

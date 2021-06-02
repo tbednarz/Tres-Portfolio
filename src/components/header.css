@@ -3,7 +3,7 @@
   display: flex;
   font-family: "Cutive Mono", monospace;
   height: min(100vh);
-  width: 100%;
+  width: auto;
   justify-content: center;
   align-items: center;
   background: linear-gradient(90deg, #5cf4db 0%, white 100%);
@@ -12,6 +12,13 @@
   -moz-animation: color-swap 6s ease-in-out infinite;
   animation: color-swap 6s ease-in-out infinite;
 }
+@media screen and (max-width: 380px) {
+  .Header-Box {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 @keyframes color-swap {
   0% {
     color: white;
@@ -28,9 +35,9 @@
 }
 
 .Header-Top {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 700;
-  padding: 5px;
+  padding-top: 5px;
 }
 .Header-Bottom {
   font-weight: 700;
