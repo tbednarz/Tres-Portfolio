@@ -15,7 +15,7 @@
   align-items: center;
   font-family: "Cutive Mono", monospace;
   margin: 5px;
-  height: auto;
+  height: min(400px);
   width: 350px;
   border: 2px solid black;
   border-radius: 10px;
