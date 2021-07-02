@@ -5,6 +5,22 @@ const Projects = () => {
   return (
     <div className="project-box">
       <div id="project">
+        {" "}
+        <h1>Hotel Website</h1>
+        <p>
+          A website built for a local hotel to help them function independantly
+          from a corporate site.
+        </p>
+        <ul id="skill-list">
+          <li>HTML/CSS</li>
+          <li>JavaScript</li>
+          <li>Netlify</li>
+        </ul>
+        <div id="link-box">
+          <a href="https://www.abvimarquette.com/">Link To website</a>
+        </div>
+      </div>
+      <div id="project">
         <h1>React Math</h1>
         <p>
           An infinite number generator to practice mental math. Choose your

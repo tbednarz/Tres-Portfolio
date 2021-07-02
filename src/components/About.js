@@ -7,7 +7,7 @@ const About = () => {
       <div id="about-left">
         <h1>About Me</h1>
         <p id="about-me-p">
-          Hi I am a former Welder/Fabricator/Mechanic/Salesperson turned
+          Hi, I am a former Welder/Fabricator/Mechanic/Salesperson turned
           Software Developer! I began my journey by making a simple program to
           help my mother with her job and was hooked into programming from then
           on. I have spent the last 4 years teaching myself to build websites
