@@ -1,48 +1,53 @@
 /* #5cf4Db */
 .Header-Box {
-  display: flex;
-  font-family: "Cutive Mono", monospace;
-  height: min(100vh);
-  width: auto;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(90deg, #5cf4db 0%, white 100%);
-  background-size: 200% 200%;
-  -webkit-animation: color-swap 6s ease-in-out infinite;
-  -moz-animation: color-swap 6s ease-in-out infinite;
-  animation: color-swap 6s ease-in-out infinite;
+    display: flex;
+    font-family: 'Cutive Mono', monospace;
+    height: min(100vh);
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(137, 200, 255) 0%, white 100%);
+    background-size: 200% 200%;
+    -webkit-animation: color-swap 10s ease-in-out infinite;
+    -moz-animation: color-swap 10s ease-in-out infinite;
+    animation: color-swap 10s ease-in-out infinite;
+}
+#tres-head-shot {
+    box-shadow: 2px 2px 2px black;
+    border-radius: 50%;
+    margin: 0 20px;
 }
 @media screen and (max-width: 380px) {
-  .Header-Box {
-    flex-direction: column;
-    text-align: center;
-  }
+    .Header-Box {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 @keyframes color-swap {
-  0% {
-    color: white;
-    background-position: 10% 0%;
-  }
-  50% {
-    color: #333;
-    background-position: 91% 100%;
-  }
-  100% {
-    color: white;
-    background-position: 10% 0%;
-  }
+    0% {
+        color: white;
+        background-position: 10% 0%;
+    }
+    50% {
+        color: #333;
+        background-position: 91% 100%;
+    }
+    100% {
+        color: white;
+        background-position: 10% 0%;
+    }
 }
 
 .Header-Top {
-  font-size: 4em;
-  font-weight: 700;
-  padding-top: 5px;
+    font-size: 4em;
+    font-weight: 700;
+    padding-top: 5px;
 }
 .Header-Bottom {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 #span-black {
-  color: #191919;
+    color: #191919;
 }

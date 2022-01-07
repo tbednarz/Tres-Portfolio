@@ -1,28 +1,30 @@
 .about-box {
-  display: flex;
-  overflow: hidden;
-  height: auto;
-  width: 100%;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 50px;
+    min-height: 500px;
 }
-#about-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5%;
-  width: 100%;
-  height: auto;
-  background-color: #fff;
-  text-align: center;
-  font-family: "Cutive Mono", monospace;
+.about-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    width: 100%;
+
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
+
 #about-me-p {
-  line-height: 2em;
-  font-weight: 700;
-  width: 75%;
+    line-height: 2em;
+    font-weight: 700;
+    width: 75%;
 }
 
 h1 {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
