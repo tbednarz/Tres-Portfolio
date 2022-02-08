@@ -31,7 +31,7 @@ const Projects = () => {
                 <p>A clone of the Apple support page.</p>
                 <ul id="skill-list">
                     <li>HTML/CSS</li>
-                    <li>json-server</li>
+                   
                 </ul>
                 <div id="link-box">
                     <a href="https://nifty-babbage-148b4c.netlify.app/">
